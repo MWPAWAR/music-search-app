@@ -1,1 +1,1 @@
-# music-search-app
+Music Search App

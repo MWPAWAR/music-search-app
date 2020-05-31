@@ -1,0 +1,6 @@
+{
+  "app.header": "Music Search App!",
+  "app.search-input-placeholder": "Please enter a song name to search... E.g. Senorita",
+  "app.search-btn-label": "Search a song",
+  "app.search-input-error": "Please enter some input to search!"
+}
