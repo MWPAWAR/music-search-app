@@ -49,11 +49,9 @@ class SearchBox extends React.PureComponent {
 
 const mapStateToProps = state => state;
 
-const mapDispatchToProps = dispatch => {
-  return {
-    searchSongs: query => { dispatch(Creators.fetchSongs(query)) }
-  }
-};
+const mapDispatchToProps = dispatch => ({
+  searchSongs: query => { dispatch(Creators.fetchSongs(query)) }
+});
   
 const connectedComponent = connect(mapStateToProps, mapDispatchToProps)(SearchBox);
 

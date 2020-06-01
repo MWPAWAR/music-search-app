@@ -10,6 +10,8 @@ const getSongs = createSelector(
   songs => songs
     .filter(song => song.kind === 'song')
     .map(song => ({
+      artistName: song.artistName,
+      collectionName: song.collectionName,
       previewUrl: song.previewUrl,
       title: song.trackName,
       trackId: song.trackId,

@@ -7,7 +7,7 @@ import Spinner from '../spinner/index';
 import { FETCHING } from '../../constants/app';
 import Song from './song';
 
-const SongList = ({ apiStatus, songs }) =>
+export const SongList = ({ apiStatus, songs }) =>
   apiStatus === FETCHING
     ? <Spinner />
     : <List
